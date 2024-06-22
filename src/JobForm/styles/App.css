@@ -1,0 +1,144 @@
+.job-application-form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.job-application-form h1 {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #555;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 1em;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.25);
+  outline: none;
+}
+
+.error {
+  color: red;
+  font-size: 0.875em;
+  margin-top: 5px;
+}
+
+.App {
+  font-family: "Arial", sans-serif;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.submitted-data {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  font-family: "Arial", sans-serif;
+}
+
+.submitted-data h1 {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.submitted-data h2 {
+  text-align: center;
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.submitted-data p {
+  font-size: 1em;
+  line-height: 1.5;
+  margin-bottom: 10px;
+  color: #409cdd;
+}
+
+.submitted-data strong {
+  color: #0e0e0e;
+}
+
+@media (max-width: 600px) {
+  .submitted-data {
+    padding: 15px;
+    border-radius: 5px;
+  }
+
+  .submitted-data h1 {
+    font-size: 1.5em;
+  }
+
+  .submitted-data h2 {
+    font-size: 1.25em;
+  }
+
+  .submitted-data p {
+    font-size: 0.9em;
+  }
+}
+
+.submit-btn {
+  background-color: #007bff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+
+@media (max-width: 600px) {
+  .job-application-form {
+    padding: 15px;
+    border-radius: 5px;
+  }
+
+  .job-application-form h1 {
+    font-size: 1.5em;
+  }
+
+  .form-group label,
+  .form-group input,
+  .form-group select,
+  .form-group textarea {
+    font-size: 0.9em;
+  }
+
+  .form-group {
+    margin-bottom: 15px;
+  }
+}
