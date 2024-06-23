@@ -106,9 +106,13 @@ const JobApplicationForm = () => {
           <p>
             Relevant Experience: <strong>{formData.relevantExperience}</strong>
           </p>
-          <p>
-            Portfolio URL: <strong>{formData.portfolioUrl}</strong>
-          </p>
+              {
+            formData.position === "Designer" && (
+              <p>
+                Portfolio URL: <strong>{formData.portfolioUrl}</strong>
+              </p>
+            )
+          }
           <p>
             Management Experience:{" "}
             <strong>{formData.managementExperience}</strong>
